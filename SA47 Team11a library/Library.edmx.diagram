@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ea7c84aecaaf48c9b3ed32b65a4681f9" Name="Diagram1">
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.BookCategories" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.Books" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.Employees" Width="1.5" PointX="5.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.IssueTran" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.Members" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.Publishers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA47Team11ALibraryDBModel.Reservations" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_Books_BookCatagories" ManuallyRouted="false" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_Books_Publishers" ManuallyRouted="false" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_IssueTran_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_Reservations_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_IssueTran_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="SA47Team11ALibraryDBModel.FK_Reservations_Members" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
